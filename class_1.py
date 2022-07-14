@@ -90,4 +90,15 @@ my_name[4],"\n",
 my_name[-1]
 )
 
+def add_10(value) :
+    if value < 10:
+        return 'pass'
+    result = value + 10
+    return result
+
+n = add_10(5)
+print(n)
+n = add_10(42)
+print(n)
+
 
