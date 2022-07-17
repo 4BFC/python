@@ -43,3 +43,49 @@ print("038 컴마 제거하기 삼성전자의 상장주식수가 다음과 같�
 # 상장주식수 = "5,969,782,550"
 # My solution
 
+# 043 capitalize 메서드
+# 문자열 'hello'가 있을 때 이를 'Hello'로 변경해보세요.
+# My solution
+hello = 'hello'
+hello[0].upper()
+print(hello)
+
+#solution
+hello = hello.capitalize()
+print(hello)
+
+# 044 endswith 메서드
+# 파일 이름이 문자열로 저장되어 있을 때 endswith 메서드를 사용해서 파일 이름이 'xlsx'로 끝나는지 확인해보세요.
+# file_name = "보고서.xlsx"
+# 정답확인
+
+file_name = "보고서.xlsx"
+print(file_name.endswith(".xlsx"))
+
+# 045 endswith 메서드
+# 파일 이름이 문자열로 저장되어 있을 때 endswith 메서드를 사용해서 파일 이름이 'xlsx' 또는 'xls'로 끝나는지 확인해보세요.
+
+# file_name = "보고서.xlsx"
+# 정답확인
+
+file_name = "보고서.xlsx"
+file_name = file_name.endswith(("xlsx", "xls"))
+print(file_name)
+
+# 047 split 메서드
+# 다음과 같은 문자열이 있을 때 공백을 기준으로 문자열을 나눠보세요.
+# a = "hello world"
+# 정답확인
+
+a = "hello world"
+a = a.split(' ')
+print(a)
+
+# 050 rstrip 메서드
+# 문자열의 오른쪽에 공백이 있을 때 이를 제거해보세요.
+
+# data = "039490     "
+
+data = "039490     "
+data = data.rsplit()
+print(data)
