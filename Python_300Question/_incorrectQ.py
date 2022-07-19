@@ -89,3 +89,41 @@ print(a)
 data = "039490     "
 data = data.rsplit()
 print(data)
+
+
+# 053
+# movie_rank 리스트에는 아래와 같이 네 개의 영화 제목이 바인딩되어 있다. "슈퍼맨"을 "닥터 스트레인지"와 "스플릿" 사이에 추가하라.
+# movie_rank = ['닥터 스트레인지', '스플릿', '럭키', '배트맨']
+# 정답확인
+movie_rank.append("슈퍼맨")
+print(movie_rank)
+
+# 053
+# movie_rank 리스트에는 아래와 같이 네 개의 영화 제목이 바인딩되어 있다. "슈퍼맨"을 "닥터 스트레인지"와 "스플릿" 사이에 추가하라.
+# movie_rank = ['닥터 스트레인지', '스플릿', '럭키', '배트맨']
+# 정답확인
+movie_rank.append("슈퍼맨")
+print(movie_rank)
+
+#solution
+movie_rank = ['닥터 스트레인지', '스플릿', '럭키', '배트맨']
+movie_rank.insert(1, "슈퍼맨")
+print(movie_rank)
+
+# 058
+# 다음 리스트의 합을 출력하라.
+
+# nums = [1, 2, 3, 4, 5]
+# 실행 예:
+# 15
+# 정답확인
+
+nums = [1, 2, 3, 4, 5]
+tmp = 0
+for n in nums:
+    tmp += n
+print(tmp)
+
+#solution
+nums = [1, 2, 3, 4, 5]
+print(sum(nums))
