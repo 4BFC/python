@@ -83,6 +83,10 @@ addIce = {'죠스바':1200, '월드콘':1500}
 iceCream.update(addIce)
 print("[86]",iceCream)
 
+#solution
+iceCream = {'메로나':1000, '폴라포':1200, '빵빠레':1800}
+iceCream['죠스바'] = 1200
+iceCream['월드콘'] = 1500
 # 087
 # 다음 딕셔너리를 사용하여 메로나 가격을 출력하라.
 
