@@ -6,3 +6,4 @@ print("a = {} b = {}\n".format(a,b))
 print("a = {} b = {}\n".format(a,b))
 a = b = 'python'
 print("a = {} b = {}\n".format(a,b))
+#test
