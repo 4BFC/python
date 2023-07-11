@@ -1,3 +1,4 @@
+# 02 section
 # Q1
 korea = 80
 english = 75
@@ -16,29 +17,29 @@ num = pin[7:]
 print(yyyymmdd)
 print(num)
 
-# 4
+# Q4
 pin = "960214-1234567"
 print(pin[7:8])
 
-# 5
+# Q5
 a = "a:b:c:d"
 b = a.replace(':', '#')
 print(b)
 
-# 6
+# Q6
 a = [1, 3, 5, 4, 2]
 a.sort()
 print(a)
 a.reverse()
 print(a)
 
-# 7 ☆
+# Q7 ☆
 start = '☆'
 a = ['Life', 'is', 'too', 'short']
 result = ','.join(a).replace(',',' ')
 print(result)
 
-# 8 ☆☆
+# Q8 ☆☆
 #ref : https://wook1005.tistory.com/4
 a = (1,2,3)
 a = a + (4,); #tuple의 추가와 제거의 대한 개념
