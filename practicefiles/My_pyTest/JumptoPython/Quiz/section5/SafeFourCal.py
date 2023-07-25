@@ -2,6 +2,7 @@ class FourCal:
     def __init__(self, first, second):
         self.first = first
         self.second = second
+    ...
 
     def setdata(self, first, second):
         self.first = first
@@ -24,8 +25,13 @@ class FourCal:
         return result
 
 
-a = FourCal(4, 2)
-print(a.first)
-print(a.second)
-print(a.add())
+class SafeFourCal(FourCal):
+    def div(self):
+        if self.second == 0:
+            return 0
+        else:
+            return self.first / self.second
+
+
+a = SafeFourCal(4, 0)
 print(a.div())
