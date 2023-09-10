@@ -1,7 +1,3 @@
-# 절댓값을 리턴
-a = abs(3)
-print(a)
-a = abs(-3)
-print(a)
-abs(-1.2)
-print(a)
+#이동 / 삭제
+import shutil 
+shutil.move("c:/doit/a.txt", "c:/temp/a.txt")
