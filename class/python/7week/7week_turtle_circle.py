@@ -30,5 +30,5 @@ t.down()
 
 #3rd
 t.circle(int(r))
-t.fd(3 * radius + space)
+#t.fd(int(3 * r + space))
 #for문을 사용해서 응용하기

@@ -2,7 +2,8 @@
 a = 7
 b = 5
 print(a+b, a-b, a*b, a/b)
-print(a/b,a//b,a%b, a**b)
+print(a/b,a//b,a%b, a**b)#나누기,몫,나머지,제곱
+#1.4,?,2
 
 #리스트
 data = [10, 20, 30, 40]

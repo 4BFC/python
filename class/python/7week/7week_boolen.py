@@ -17,7 +17,6 @@ c100s = change // 100 #4
 
 print("myTest : ", org)
 print("거스름돈은", money - price, "원 입니다.")
-#print("거스름돈은", money - price, "원 입니다.")
 print("1000원 수 =>",c1000s)
 print("500원 수 =>",c500s)
 print("100원 수 =>",c100s)
