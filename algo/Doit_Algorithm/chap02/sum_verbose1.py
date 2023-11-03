@@ -9,10 +9,10 @@ if a > b:
 
 sum = 0
 
-for i in range(a, b+1):
+for i in range(a, b+1):  # 여기서 b+!을 하는 이유는 if문의 조건때문이다.
     if i < b:
         print(f'{i} + ', end='')
     else:
         print(f'{i}=', end='')
-    sum += i
+    sum += i  # sum은 현재 if문 안에 있다.
 print(sum)
