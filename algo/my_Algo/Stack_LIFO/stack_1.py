@@ -37,5 +37,5 @@ stack.is_push(30)
 
 print(stack.is_pop())  # 30 -pop
 print(stack.peek())  # 20 - peek
-print(stack.size())
-print(stack.is_empty())
+print(stack.size())  # 2
+print(stack.is_empty())  # False
