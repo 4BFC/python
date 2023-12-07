@@ -1,5 +1,6 @@
+# enqueue
 from collections import deque
-
+print("enqueue")
 queue = deque()
 
 queue.append(1)
