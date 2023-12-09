@@ -4,6 +4,7 @@ menu = menu[2]
 print(menu)
 nation = {"한국":"KOREA", "미국":"USA", "중국":"CHINA"}
 print(nation.get("한국"))
+print(nation.get("KOREA"))
 'KOREA'
 nation["한국"]
 print(nation["한국"])

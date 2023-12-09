@@ -3,9 +3,9 @@ print(a[:3])
 print(a[3:])
 print(a[:]) #all
 
-
 b = "my name"
 print(b[1])
+
 #add
 b = [3,6,9,13,15,18,21,27]
 b[3] = 12
@@ -26,17 +26,18 @@ future.append("자율주행")
 future.append("사물인터넷")
 
 print("미리 기술 핵심분야")
+
 #sep역할
-print(future, sep=",")
+print(future, sep=",") #['AI', '빅데이터', '자율주행', '사물인터넷']
 
 #sort
 #future.sort()
-print(future, sep=",")
+print(future, sep=",") #['AI', '빅데이터', '사물인터넷', '자율주행']
 
 #reverse : 순서의 역으로
 #future.reverse()
-print(future, sep=",")
+print(future, sep=",") #['사물인터넷', '자율주행', '빅데이터', 'AI']
 
 #sort(reverse = True) : 리스트 값을 내림차수능로 변경
 future.sort(reverse=True)
-print(future, sep=",")
+print(future, sep=",") #['자율주행', '사물인터넷', '빅데이터', 'AI']

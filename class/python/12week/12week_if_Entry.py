@@ -9,7 +9,7 @@ def pass_check():
 
     if score >= 70:
         #lbl_status.configure(text = "합격")
-        lbl_img.configure(text = "합격")
+        lbl_status.configure(text = "합격")
         lbl_img = Label(root, text = "합격")#image = photo1
         lbl_img.place(x=100, y=30)
     else :

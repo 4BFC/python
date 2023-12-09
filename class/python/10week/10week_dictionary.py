@@ -1,7 +1,7 @@
 #중괄호
 #key : value로 이루어져 있다.
 
-#딕녀너리 쌍 추가
+#딕셔너리 쌍 추가
 customer = {}
 customer['name'] = '김사랑'
 customer['job'] = '회사원'
