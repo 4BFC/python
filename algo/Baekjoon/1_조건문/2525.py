@@ -1,5 +1,5 @@
 H, M = map(int, input().split())
-C = int(input())
+C = int(input())  # timer
 MC = (M + int(C))
 print(f"check : {MC}")
 if 60 <= MC:
