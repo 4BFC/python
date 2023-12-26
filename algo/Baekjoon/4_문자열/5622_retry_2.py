@@ -3,8 +3,11 @@ test = "HELLO"
 for i in N:
     print(i, end=" ")
     for ii in i:
-        if test in ii:
+        print(f"{ii}", end=" ")
+        if test in 'H':
             print("check")
+        # if test in ii:
+        #     print(f"test : {test}")
         # print(f"{ii} : {test.index(ii)}", end=" ")
         # print(test.find('H'))
         # print(f"{ii}:{test.index(ii)}", end=" ")
