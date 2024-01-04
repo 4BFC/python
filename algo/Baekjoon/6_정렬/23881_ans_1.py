@@ -19,4 +19,5 @@ for i in range(n-1, 0, -1):
         else:
             print(-1)
 
+
 # print(-1)
