@@ -3,7 +3,7 @@ li = list(map(int, input().split()))
 count = 0
 
 for i in range(n - 1, 0, -1):
-    idx = li.index(max(li[:i + 1]))
+    idx = li.index(max(li[:i + 1]))  # max
     if idx != i:
         li[idx], li[i] = li[i], li[idx]
         count += 1

@@ -1,9 +1,6 @@
 n, k = map(int, input().split())
-
 N = list(input().split())
-
 cnt = 0
-
 for i in range(len(N)-1, -1, -1):
     max = i
     for ii in range(i-1, -1, -1):  # (len(N)-1, i, -1)
