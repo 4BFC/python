@@ -22,3 +22,5 @@ for _ in range(N):
             print(stack[len(stack)-1])
     if cmd[0] == "size":
         print(len(stack))
+    if cmd[0] == "stack":
+        print(stack)
