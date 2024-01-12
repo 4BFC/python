@@ -4,6 +4,7 @@ count = 0
 
 for i in range(n - 1, 0, -1):
     idx = li.index(max(li[:i + 1]))  # max
+    # max값만 추출하는 방법도 매우 좋다.
     if idx != i:
         li[idx], li[i] = li[i], li[idx]
         count += 1

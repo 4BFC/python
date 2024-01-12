@@ -1,23 +1,33 @@
-n, exchange = map(int, input().split())
-arr = list(map(int, input().split()))
-index = 0
+import sys
+
+n, exchange = map(int, sys.stdin.readline().split())
+arr = list(map(int, sys.stdin.readline().split()))
 swap = 0
 
-for i in range(n-1, 0, -1):
-    index = i
 
-    for j in range(1, i+1):
-        if arr[j] > arr[i]:
-            index = j
+def selection(arr):
+    global swap
+    result = []
 
-    if i != index:
-        arr[i], arr[index] = arr[index], arr[i]
-        swap += 1  # cnt
-        if swap == exchange:
-            print(arr[index], arr[i])
-            exit()
-        else:
-            print(-1)
+    for i in range(n - 1, 0, -1):
+        max, index = arr[0], 0
+
+        for j in range(0, i + 1):
+            if arr[j] > max:
+                max, index = arr[j], j
+
+        if i != index:
+            arr[i], arr[index] = arr[index], arr[i]
+            swap += 1
+
+            if swap == exchange:
+                result.append(arr[index])
+                result.append(arr[i])
+                return result
+
+    result.append(-1)
+    return result
 
 
-# print(-1)
+print(*selection(arr))
+# https://clap0107.tistory.com/24
