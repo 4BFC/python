@@ -1,6 +1,3 @@
-# n, k = map(int, input().split())
-# N = input().split()
-# cnt = 0
 import sys
 n, k = map(int, sys.stdin.readline().split())
 N = list(map(int, sys.stdin.readline().split()))
@@ -26,5 +23,3 @@ def selection(N):
 
 
 selection(N)
-# print(cnt)
-# print(N)
