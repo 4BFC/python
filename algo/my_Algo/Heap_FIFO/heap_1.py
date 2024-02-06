@@ -6,12 +6,12 @@ def heap_sort(arr):
     heap = []
     for element in arr:
         heapq.heappush(heap, element)
-        print(heap, end=" ")
-    print(heap)
+        print(heap)
+    # print(heap)
     sorted_arr = []
     while heap:
         sorted_arr.append(heapq.heappop(heap))
-
+        print(sorted_arr)
     return sorted_arr
 
 
